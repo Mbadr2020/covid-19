@@ -1,0 +1,1077 @@
+* {
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(247, 249, 254); */
+
+}
+
+:root {
+
+    --main-color: rgb(42, 129, 234);
+    --second-color: rgb(80, 101, 142);
+    --red-color: rgb(255, 83, 99);
+}
+
+
+/************** HEADER bar **************/
+.headerbar {
+    position: fixed;
+    width: 100%;
+    padding: 1% 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+
+}
+
+.header {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.header .nav-link {
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 14px;
+    /* justify-content:flex-end; */
+}
+
+.header .nav-link:hover {
+    color: var(--main-color);
+}
+
+
+.header ul .do {
+    color: rgb(255, 255, 255);
+    background-color: var(--main-color);
+    border-radius: 60px;
+    width: 120px;
+    text-align: center;
+}
+
+.header ul .do:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 112, 207);
+
+}
+
+/* logo */
+.header .logo h1 {
+    color: rgb(57, 75, 108);
+    font-weight: 900;
+    font-size: 28px;
+
+}
+
+.header .logo {
+    margin-right: 15%;
+    justify-content: flex-start;
+
+}
+
+.header .logo span {
+    color: var(--second-color);
+    font-weight: bolder;
+}
+
+.header .logo .virus {
+    color: var(--red-color);
+}
+
+/* End of logo */
+
+/*************** end of HEADER bar **********************/
+
+
+/**..........HOME.........**/
+.home {
+    background-image: url('../img/shape-a.png');
+    background-size: cover;
+    background-color: rgb(247, 249, 254);
+
+}
+
+.home .homepage {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+
+.home .homepage img {
+    margin: 8% 2%;
+    width: 680px;
+}
+
+.home .homepage .homedata {
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 80vh;
+
+}
+
+.home .homepage .homedata p {
+    color: rgb(87, 99, 128);
+    font-size: 15px;
+    max-width: 500px;
+}
+
+.home .homepage .homedata .corona {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.home .homepage .homedata .corona h1 {
+    /* margin-left: 25%; */
+    font-family: 'Oswald', sans-serif;
+    color: var(--second-color);
+    font-size: 85px;
+    font-weight: bold;
+
+}
+
+/* .homepage .corona span {
+    font-family: 'Oswald', sans-serif;
+    color: var(--second-color);
+    font-size: 40px;
+    font-weight: bold;
+} */
+.home .homepage .homedata .corona h2 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--red-color);
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.home .homepage .homedata .corona span {
+
+    font-family: 'Oswald', sans-serif;
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/*buttons*/
+.home .homepage .homedata .buttons {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home .homepage .homedata .buttons .protect {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 9px 25px;
+    background-color: var(--main-color);
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.home .homepage .homedata .buttons .protect:hover {
+    background-color: rgb(37, 53, 73);
+
+}
+
+.home .homepage .homedata .buttons .about {
+    color: var(--main-color);
+    font-size: 18px;
+    border: none;
+    background-color: rgb(247, 249, 254);
+}
+
+/*counter*/
+.home .homepage .homedata .counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home .homepage .homedata .counter .number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.home .homepage .homedata .counter .number h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(127, 147, 187);
+}
+
+.home .homepage .homedata .counter .number h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--second-color);
+
+}
+
+.home .homepage .homedata .last {
+    font-style: italic;
+    font-size: 12px;
+    color: rgb(127, 147, 187);
+
+}
+
+/***.......END of HOME......**/
+
+/**...........about corona............**/
+.aboutcorona {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1% 0;
+    margin-top: 20vh;
+    background-color: rgb(254, 254, 254);
+
+}
+
+.aboutcorona .disease {
+    width: 50%;
+    color: rgb(61, 75, 105);
+}
+
+.aboutcorona .disease h3 {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+
+.aboutcorona .disease h1 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--second-color);
+    margin-bottom: 5%;
+}
+
+.aboutcorona .disease h2 {
+    font-size: 18px;
+    color: rgb(61, 75, 105);
+    font-weight: bold;
+}
+
+.aboutcorona .disease h4 {
+    font-size: 18px;
+    margin-bottom: 4%;
+
+}
+
+/*******need to know section*********/
+
+.aboutcorona .need-to-know {
+    border: solid 1px rgb(237, 238, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 25%;
+}
+
+/* .aboutcorona .need-to-know table tr{
+border-bottom: solid 1px rgb(237,238,255);
+}
+.aboutcorona .need-to-know table tr th{
+    color: rgb(70,86,117);
+    padding:10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+   }
+   
+.aboutcorona .need-to-know table tr td{
+ padding:10px 40px;
+ font-size: 16px;
+} */
+
+.aboutcorona .need-to-know ul {
+    list-style: none;
+}
+
+.aboutcorona .need-to-know ul li {
+    font-size: 16px;
+    border-top: solid 1px rgb(237, 238, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 4%;
+
+}
+
+.aboutcorona .need-to-know ul li h2 {
+    color: var(--second-color);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.aboutcorona .need-to-know ul li span {
+    position: absolute;
+    right: 9%;
+
+}
+
+.aboutcorona .need-to-know ul li a {
+    text-decoration: none;
+}
+
+/**...........end of about corona............**/
+
+/*******transmission************/
+.transmission {
+    background-color: rgb(244, 247, 252);
+    /* text-align: center; */
+    margin-top: 8%;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transmission h4 {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.transmission h1 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+.transmission p {
+    font-size: 16px;
+    margin: 2%;
+    max-width: 50%;
+    text-align: center;
+}
+
+.transmission .boxs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.transmission .boxs .box {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    max-width: 60vh;
+    margin: 2%;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+}
+
+.transmission .boxs .box img {
+    width: 100%;
+    border-bottom: solid 5px rgb(156, 194, 247);
+}
+
+.transmission .boxs .box h3 {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 9% 5%;
+}
+
+.transmission .boxs .box p {
+    min-width: 90%;
+    text-align: start;
+    margin: 5%;
+}
+
+.transmission button {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: var(--main-color);
+    border-radius: 60px;
+    text-align: center;
+    border: none;
+    margin: 6%;
+    padding: 10px 40px;
+}
+
+.transmission button:hover {
+    background-color: rgb(35, 112, 207);
+
+}
+
+/*******end of transmission************/
+
+
+/***********symptoms*************/
+.symptoms {
+    height: 100%;
+    padding: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(251, 252, 253);
+}
+
+.symptoms h4 {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.symptoms h1 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+.symptoms p {
+    font-size: 16px;
+    margin: 2%;
+    max-width: 56%;
+    text-align: center;
+}
+
+.symptoms .symptoms-boxs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.symptoms .symptoms-boxs .symptoms-box {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    max-width: 60vh;
+    margin: 2%;
+}
+
+.symptoms .symptoms-boxs .symptoms-box .symptoms-img {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.symptoms .symptoms-boxs .symptoms-box .symptoms-img img {
+    border-radius: 60%;
+    max-height: 13vh;
+    margin-right: 10%;
+    position: relative;
+    top: -30px;
+
+}
+
+.symptoms .symptoms-boxs .symptoms-box .symptoms-img h3 {
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5%;
+}
+
+.symptoms .symptoms-boxs .symptoms-box p {
+    min-width: 90%;
+    text-align: start;
+    margin: 0 5%;
+}
+
+
+.symptoms .symptoms-boxs .symptoms-box p span {
+    color: rgb(61, 75, 105);
+    font-weight: bold;
+}
+
+.symptoms .stay-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5%;
+}
+
+.symptoms .stay-home .warning-icon {
+    color: var(--main-color);
+    font-size: 40px;
+    margin-left: 7%;
+}
+
+.symptoms .stay-home p {
+    text-align: start;
+    font-style: italic;
+    max-width: 50%;
+    margin-right: 5%;
+}
+
+.symptoms .stay-home p span {
+    color: var(--main-color);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.symptoms .stay-home button {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: var(--main-color);
+    border-radius: 60px;
+    text-align: center;
+    border: none;
+    padding: 7px 40px;
+}
+
+.symptoms .stay-home button:hover {
+    background-color: rgb(35, 112, 207);
+}
+
+/*********End of symptoms******************/
+
+
+
+/****************** prevention section **************************/
+
+.prevention {
+    background-color: rgb(244, 247, 252);
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 7%;
+
+}
+
+.prevention h4 {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.prevention h1 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+.prevention p {
+    font-size: 16px;
+    margin: 2%;
+    max-width: 56%;
+    text-align: center;
+}
+
+.prevention p span {
+    color: rgb(61, 75, 105);
+    font-weight: bold;
+}
+
+.prevention .prevention-boxs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 7%;
+}
+
+
+.prevention .prevention-boxs .prevention-single-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.prevention .prevention-boxs .prevention-single-box img {
+    max-width: 18vh;
+    border-radius: 50%;
+
+}
+
+.prevention .prevention-boxs .prevention-single-box h1 {
+    color: rgb(61, 75, 105);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+}
+
+.prevention .prevention-boxs .prevention-single-box p {
+    color: rgb(61, 75, 105);
+    min-width: 30ch;
+    margin-bottom: 20%;
+}
+
+.prevention .prevention-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10%;
+
+}
+
+.prevention .prevention-buttons .prevention-button1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: var(--main-color);
+    border-radius: 60px;
+    text-align: center;
+    border: none;
+    padding: 7px 40px;
+}
+
+.prevention .prevention-buttons .prevention-button1:hover {
+    background-color: rgb(35, 112, 207);
+}
+
+.prevention .prevention-buttons .prevention-button2 {
+    font-weight: bold;
+    color: var(--main-color);
+    border-radius: 60px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    padding: 7px 60px;
+}
+
+.prevention .prevention-buttons .prevention-button2:hover {
+    color: rgb(35, 112, 207);
+}
+
+.prevention .steps-to-protect {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    padding-top: 50px;
+    max-width: 90%;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    margin-bottom: 5%;
+
+}
+
+.prevention .steps-to-protect h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 75, 105);
+    margin-left: 5%;
+}
+
+.prevention .steps-to-protect .steps-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.prevention .steps-to-protect .steps-data img {
+    max-width: 30%;
+    padding-bottom: 2%;
+}
+
+.prevention .steps-to-protect .steps-data p {
+    max-width: 100%;
+    text-align: left;
+    margin: 0;
+    color: rgb(61, 75, 105);
+    padding: 5px;
+}
+
+.prevention .steps-to-protect .steps-data p i {
+    color: rgb(61, 202, 147);
+}
+
+.prevention .steps-to-protect .steps-data .data-box {
+    max-width: 50%;
+    margin: 2% 0;
+}
+
+.prevention .steps-to-wash {
+    margin: 5%;
+}
+
+.prevention .steps-to-wash h1 {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 75, 105);
+
+}
+
+.prevention .steps-to-wash h3 {
+    text-align: center;
+    color: var(--main-color);
+
+}
+
+.prevention .steps-to-wash h3 a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.prevention .steps-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.prevention .steps-images .wash-img {
+    margin: 0 4.5%;
+}
+
+.prevention .steps-images .wash-img img {
+    border-radius: 50%;
+    max-width: 20vh;
+    margin-bottom: 10%;
+}
+
+.prevention .steps-images .wash-img h1 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 53, 73);
+    text-align: center;
+
+}
+
+/******************END prevention section **************************/
+
+/********************treatment section******************************/
+
+.treatment {
+    height: 100vh;
+    background-color: rgb(39, 102, 187);
+    background-image: url(../img/shape-a.png);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.treatment .be-carefull {
+    padding: 10%;
+}
+
+.treatment .be-carefull h3 {
+    color: rgb(115, 227, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.treatment .be-carefull h1 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.treatment .be-carefull p {
+    color: rgb(206, 212, 255);
+    min-width: 90%;
+
+}
+
+.treatment .be-carefull p span {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.treatment .self-care-box {
+    background-color: rgb(27, 71, 161);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 100%;
+    margin: 8% 5% 5% 0;
+    padding: 4% 4% 32% 4%;
+}
+
+.treatment .self-care-box h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.treatment .self-care-box p {
+    margin: 1px;
+}
+
+/*****************end of treatment section *************************/
+
+/*************do-donot section***************/
+.do-donot {
+    background-color: rgb(244, 247, 252);
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.do-donot h4 {
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.do-donot h1 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+.do-donot p {
+    font-size: 16px;
+    margin: 2%;
+    max-width: 80%;
+    text-align: center;
+}
+
+.do-donot .do-protect-img {
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.do-donot .do-protect-img img {
+    max-width: 45%;
+    margin-right: 2%;
+}
+
+.do-donot .do-protect-img .do-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+
+.do-donot .do-protect-img .do-img .donts {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-self: flex-end;
+    width: 100%;
+    position: relative;
+}
+
+.do-donot .do-protect-img .do-img .donts .false {
+    color: var(--red-color);
+    position: absolute;
+    left: 55%;
+    font-size: 21px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+}
+
+.do-donot .do-protect-img .do-img .donts img {
+    border-radius: 50%;
+    border: solid var(--main-color);
+    border-width: 2px;
+    width: 80%;
+
+}
+
+.do-donot .do-protect-img .do-img .donts h3 {
+
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: bold;
+    padding: 30px;
+    align-self: center;
+}
+
+.do-donot .do-protect-img .do-img .dos {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    width: 100%;
+    position: relative;
+
+
+}
+
+.do-donot .do-protect-img .do-img .dos .true {
+    color: rgb(61, 202, 147);
+    position: absolute;
+    right: 56%;
+    font-size: 21px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+}
+
+.do-donot .do-protect-img .do-img .dos img {
+    border-radius: 50%;
+    border: solid var(--main-color);
+    border-width: 2px;
+    width: 80%;
+    margin-left: 30%;
+
+}
+
+.do-donot .do-protect-img .do-img .dos h3 {
+
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: bold;
+    /* padding: 30px; */
+    align-self: center;
+}
+
+/*************END of do-donot section***************/
+
+
+/*********FAQ section***********/
+.faq {
+    margin-top: 7%;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.faq h4 {
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.faq h1 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+.faq .quest-ans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+.faq .quest-ans .questions {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+
+}
+
+.faq .quest-ans .questions button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.faq .quest-ans .questions button h3 {
+    font-size: 18px;
+    color: rgb(80, 101, 142);
+    border: solid 2px rgb(206, 212, 255);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: left;
+    width: 55vh;
+    margin-left: 10%;
+}
+
+.faq .quest-ans .questions button h3:hover {
+    transition: all 0.5s ease-in-out;
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.faq .quest-ans .questions button h3 .right-arrow {
+    /* padding-left: 40px; */
+    position: absolute;
+    left: 35%;
+}
+
+.faq .quest-ans .answers {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+    /* margin-left: 5%; */
+}
+
+.faq .quest-ans .answers .ans-box {
+    border: solid 1.5px rgb(220, 223, 241);
+    width: 110vh;
+    border-radius: 5px 5px 0 0;
+    padding: 2vh 3.5vh;
+    background-color: rgb(247, 250, 254);
+    text-align: left   ;
+}
+
+.faq .quest-ans .answers a {
+    text-decoration: none;
+}
+
+.faq .quest-ans .answers h1 {
+    font-size: 16px;
+    color: var(--second-color);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq .quest-ans .answers h1:hover {
+    color: var(--main-color);
+}
+
+.faq .quest-ans .answers .ans-box .content {
+    display: none;
+    padding-top: 2%;
+    text-align: left;
+}
+.faq .quest-ans .answers .ans-box2 .content {
+    display: none;
+    padding-top: 2%;
+    text-align: left;
+}
+.faq .quest-ans .answers .ans-box3 .content {
+    display: none;
+    padding-top: 2%;
+    text-align: left;
+}
+
+.faq .quest-ans .answers  button {
+border: none;
+background: transparent;
+
+}
+
+.faq .quest-ans .answers p span {
+    color: var(--main-color);
+}
+
+.faq .quest-ans .answers .ans-box2 {
+    border: solid 1.5px rgb(220, 223, 241);
+    width: 110vh;
+    padding: 2vh 3.5vh;
+    border-top: 0;
+    background-color: rgb(247, 250, 254);
+    text-align: left   ;
+
+}
+
+
+.faq .quest-ans .answers .ans-box3 {
+    border: solid 1.5px rgb(220, 223, 241);
+    width: 110vh;
+    padding: 2vh 3.5vh;
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+    background-color: rgb(247, 250, 254);
+    text-align: left   ;
+
+}
+
+.faq .quest-ans .answers h1 .plus {
+    position: absolute;
+    right: 13%;
+    background-color: rgb(255, 255, 255);
+    border: solid 7px rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+
+/*********End of FAQ section***********/
